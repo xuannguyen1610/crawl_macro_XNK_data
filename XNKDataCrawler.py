@@ -4,11 +4,11 @@ from ExcelUtil import convert_excel_content
 
 
 year = '2023'
-month = '3'
-code = 'XUAT_KHAU'
+month = '4'
+code = 'NHAP_KHAU'
 continent = ''
 
-isDebug = True
+isDebug = False
 if isDebug:
 	data_XNK = convert_excel_content()
 	data_XNK.to_excel("check_data_XNK.xlsx", index=False)
