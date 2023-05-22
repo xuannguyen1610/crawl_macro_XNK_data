@@ -1,12 +1,19 @@
 import mysql.connector
 
-mydb = mysql.connector.connect(
+'''mydb = mysql.connector.connect(
     host="139.59.101.51",
     user="xuanprovjp",
     password="AWX03kgd1QjMTSgZsUBAxxz1QDw",
     database="stock"
 )
+'''
 
+mydb = mysql.connector.connect(
+    host="157.230.244.233",
+    user="stock_admin",
+    password="aVBrVDczZzJ5OUVma3JR",
+    database="stock"
+)
 
 def insert_data_to_database(data_list):
     cursor = mydb.cursor()

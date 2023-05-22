@@ -4,8 +4,8 @@ from ExcelUtil import convert_excel_content
 
 
 year = '2023'
-month = '4'
-code = 'NHAP_KHAU'
+month = '3'
+code = 'XUAT_KHAU'
 continent = ''
 
 isDebug = False
